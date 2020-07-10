@@ -1,0 +1,34 @@
+.container{
+    min-height: 80vh;
+    .data-country{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .css-2b097c-container{
+            width: 50%;
+        }
+        .dates{
+            margin-top: 10px;
+            input{
+                background-color: transparent;
+                box-shadow: none;
+                border: solid 1px hsl(0,0%,80%);
+                border-radius: 5px;
+                padding: 0 10px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .per-day{
+        margin-top: 30px;
+    }
+    .error-message{
+        width: 100%;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

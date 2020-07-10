@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/icon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Site de dados do covid-19" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>covid-19 dados</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyC7ACJjNhenuXA_OCJcHnzwFG3qFl6SArk",
+        authDomain: "covid-19-142ee.firebaseapp.com",
+        databaseURL: "https://covid-19-142ee.firebaseio.com",
+        projectId: "covid-19-142ee",
+        storageBucket: "covid-19-142ee.appspot.com",
+        messagingSenderId: "1088956190800",
+        appId: "1:1088956190800:web:648f9cdaf8e1d48da58155",
+        measurementId: "G-SHWRNRGG0D"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </body>
+</html>
